@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "tavily": {
+      "command": ".venv/Scripts/python.exe",
+      "args": ["examples/MCP/tavily-mcp-server/server.py"],
+      "cwd": ".",
+      "env": {
+        "TAVILY_AUTH_MODE": "keyless"
+      }
+    }
+  }
+}

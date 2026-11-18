@@ -1,0 +1,225 @@
+﻿編號,分類,Index / Key,中文名稱
+1,公司基本資料,symbol,股票代碼
+2,公司基本資料,shortName,公司簡稱
+3,公司基本資料,longName,公司完整名稱
+4,公司基本資料,displayName,顯示名稱
+5,公司基本資料,quoteType,商品類型
+6,公司基本資料,typeDisp,商品類型顯示名稱
+7,公司基本資料,sector,產業部門
+8,公司基本資料,sectorKey,產業部門代碼
+9,公司基本資料,sectorDisp,產業部門顯示名稱
+10,公司基本資料,industry,細分產業
+11,公司基本資料,industryKey,細分產業代碼
+12,公司基本資料,industryDisp,細分產業顯示名稱
+13,公司基本資料,longBusinessSummary,公司業務詳細介紹
+14,公司基本資料,website,公司官方網站
+15,公司基本資料,irWebsite,投資人關係網站
+16,公司基本資料,address1,公司地址第一行
+17,公司基本資料,address2,公司地址第二行
+18,公司基本資料,city,城市
+19,公司基本資料,state,州／省
+20,公司基本資料,zip,郵遞區號
+21,公司基本資料,country,國家
+22,公司基本資料,phone,公司電話
+23,公司基本資料,fax,公司傳真
+24,公司基本資料,fullTimeEmployees,全職員工人數
+25,公司基本資料,companyOfficers,公司高階管理人員資料
+26,公司基本資料,executiveTeam,高階經營團隊資料（如有）
+27,公司基本資料,maxAge,資料快取／有效期限參數
+28,市場與交易資料,currency,報價幣別
+29,市場與交易資料,financialCurrency,財務報表幣別
+30,市場與交易資料,exchange,交易所代碼
+31,市場與交易資料,fullExchangeName,交易所完整名稱
+32,市場與交易資料,exchangeTimezoneName,交易所時區名稱
+33,市場與交易資料,exchangeTimezoneShortName,交易所時區縮寫
+34,市場與交易資料,gmtOffSetMilliseconds,GMT 時區偏移毫秒數
+35,市場與交易資料,market,市場識別碼
+36,市場與交易資料,marketState,市場交易狀態
+37,市場與交易資料,exchangeDataDelayedBy,行情延遲分鐘數
+38,市場與交易資料,firstTradeDateEpochUtc,首次交易日期
+39,市場與交易資料,regularMarketTime,正常交易時段最新報價時間
+40,市場與交易資料,regularMarketPrice,正常交易時段最新價格
+41,市場與交易資料,regularMarketChange,正常交易時段漲跌金額
+42,市場與交易資料,regularMarketChangePercent,正常交易時段漲跌幅
+43,市場與交易資料,regularMarketOpen,正常交易時段開盤價
+44,市場與交易資料,regularMarketDayHigh,正常交易時段最高價
+45,市場與交易資料,regularMarketDayLow,正常交易時段最低價
+46,市場與交易資料,regularMarketPreviousClose,正常交易時段前收盤價
+47,市場與交易資料,regularMarketVolume,正常交易時段成交量
+48,市場與交易資料,currentPrice,目前價格
+49,市場與交易資料,previousClose,前一交易日收盤價
+50,市場與交易資料,open,當日開盤價
+51,市場與交易資料,dayHigh,當日最高價
+52,市場與交易資料,dayLow,當日最低價
+53,市場與交易資料,volume,當日成交量
+54,市場與交易資料,averageVolume,平均成交量（通常為三個月）
+55,市場與交易資料,averageVolume10days,近 10 日平均成交量
+56,市場與交易資料,averageDailyVolume10Day,近 10 日平均每日成交量
+57,市場與交易資料,averageDailyVolume3Month,近三個月平均每日成交量
+58,市場與交易資料,bid,最佳買價
+59,市場與交易資料,ask,最佳賣價
+60,市場與交易資料,bidSize,最佳買價掛單量
+61,市場與交易資料,askSize,最佳賣價掛單量
+62,市場與交易資料,priceHint,報價小數位數提示
+63,市場與交易資料,quoteSourceName,行情來源名稱
+64,市場與交易資料,sourceInterval,報價來源更新間隔
+65,市場與交易資料,tradeable,是否可交易（歷史欄位）
+66,盤前與盤後交易,preMarketPrice,盤前交易價格
+67,盤前與盤後交易,preMarketChange,盤前漲跌金額
+68,盤前與盤後交易,preMarketChangePercent,盤前漲跌幅
+69,盤前與盤後交易,preMarketTime,盤前交易時間
+70,盤前與盤後交易,preMarketSource,盤前行情來源
+71,盤前與盤後交易,postMarketPrice,盤後交易價格
+72,盤前與盤後交易,postMarketChange,盤後漲跌金額
+73,盤前與盤後交易,postMarketChangePercent,盤後漲跌幅
+74,盤前與盤後交易,postMarketTime,盤後交易時間
+75,盤前與盤後交易,postMarketSource,盤後行情來源
+76,盤前與盤後交易,hasPrePostMarketData,是否具備盤前／盤後行情
+77,盤前與盤後交易,regularMarketSource,正常交易時段行情來源
+78,技術指標與歷史區間,fiftyDayAverage,50 日平均股價
+79,技術指標與歷史區間,twoHundredDayAverage,200 日平均股價
+80,技術指標與歷史區間,fiftyTwoWeekHigh,52 週最高價
+81,技術指標與歷史區間,fiftyTwoWeekLow,52 週最低價
+82,技術指標與歷史區間,fiftyTwoWeekChange,52 週股價變動率
+83,技術指標與歷史區間,52WeekChange,近 52 週股價變動率
+84,技術指標與歷史區間,SandP52WeekChange,標普 500 指數近 52 週變動率
+85,技術指標與歷史區間,allTimeHigh,歷史最高價（如有）
+86,技術指標與歷史區間,allTimeLow,歷史最低價（如有）
+87,技術指標與歷史區間,fiftyDayAverageChange,現價與 50 日均價的差額
+88,技術指標與歷史區間,fiftyDayAverageChangePercent,現價相對 50 日均價的變動率
+89,技術指標與歷史區間,twoHundredDayAverageChange,現價與 200 日均價的差額
+90,技術指標與歷史區間,twoHundredDayAverageChangePercent,現價相對 200 日均價的變動率
+91,技術指標與歷史區間,fiftyTwoWeekHighChange,現價與 52 週最高價的差額
+92,技術指標與歷史區間,fiftyTwoWeekHighChangePercent,現價相對 52 週最高價的變動率
+93,技術指標與歷史區間,fiftyTwoWeekLowChange,現價與 52 週最低價的差額
+94,技術指標與歷史區間,fiftyTwoWeekLowChangePercent,現價相對 52 週最低價的變動率
+95,技術指標與歷史區間,fiftyTwoWeekRange,52 週股價區間
+96,市值與估值,marketCap,公司總市值
+97,市值與估值,enterpriseValue,企業價值（EV）
+98,市值與估值,trailingPE,歷史本益比（近 12 個月）
+99,市值與估值,forwardPE,預估本益比
+100,市值與估值,pegRatio,本益成長比（PEG）
+101,市值與估值,trailingPegRatio,近 12 個月 PEG 比率
+102,市值與估值,priceToBook,股價淨值比（P/B）
+103,市值與估值,priceToSalesTrailing12Months,股價營收比（P/S，近 12 個月）
+104,市值與估值,enterpriseToRevenue,企業價值／營收
+105,市值與估值,enterpriseToEbitda,企業價值／EBITDA
+106,市值與估值,bookValue,每股帳面淨值
+107,市值與估值,trailingEps,近 12 個月每股盈餘（EPS）
+108,市值與估值,forwardEps,預估每股盈餘
+109,市值與估值,epsTrailingTwelveMonths,近 12 個月 EPS
+110,市值與估值,epsForward,預估 EPS
+111,市值與估值,epsCurrentYear,本年度預估 EPS
+112,市值與估值,priceEpsCurrentYear,股價／本年度預估 EPS
+113,市值與估值,sharesOutstanding,流通在外發行股數
+114,市值與估值,impliedSharesOutstanding,推算流通股數
+115,市值與估值,floatShares,自由流通股數
+116,市值與估值,sharesShort,放空股數
+117,市值與估值,sharesShortPriorMonth,前月放空股數
+118,市值與估值,sharesShortPreviousMonthDate,前月放空股數統計日期
+119,市值與估值,dateShortInterest,放空部位統計日期
+120,市值與估值,sharesPercentSharesOut,放空股數占流通在外股數比例
+121,市值與估值,shortPercentOfFloat,放空股數占自由流通股比例
+122,市值與估值,shortRatio,空單回補天數（Days to Cover）
+123,市值與估值,heldPercentInsiders,內部人持股比例
+124,市值與估值,heldPercentInstitutions,機構投資人持股比例
+125,市值與估值,lastSplitFactor,最近一次股票分割比例
+126,市值與估值,lastSplitDate,最近一次股票分割日期
+127,財務資料,totalRevenue,總營收（通常為近 12 個月）
+128,財務資料,revenuePerShare,每股營收
+129,財務資料,revenueGrowth,營收成長率
+130,財務資料,revenueQuarterlyGrowth,季營收成長率（歷史欄位）
+131,財務資料,grossProfits,毛利
+132,財務資料,grossMargins,毛利率
+133,財務資料,operatingMargins,營業利益率
+134,財務資料,ebitda,稅息折舊攤銷前利益
+135,財務資料,ebitdaMargins,EBITDA 利潤率
+136,財務資料,profitMargins,淨利率
+137,財務資料,netIncomeToCommon,歸屬普通股股東淨利
+138,財務資料,earningsGrowth,盈餘成長率
+139,財務資料,earningsQuarterlyGrowth,季盈餘成長率
+140,財務資料,totalCash,現金及約當現金等總現金
+141,財務資料,totalCashPerShare,每股現金
+142,財務資料,totalDebt,總負債性借款
+143,財務資料,debtToEquity,負債權益比（通常為有息負債／權益）
+144,財務資料,currentRatio,流動比率
+145,財務資料,quickRatio,速動比率
+146,財務資料,operatingCashflow,營業活動現金流
+147,財務資料,freeCashflow,自由現金流
+148,財務資料,returnOnAssets,資產報酬率（ROA）
+149,財務資料,returnOnEquity,股東權益報酬率（ROE）
+150,財務資料,lastFiscalYearEnd,最近會計年度結束日期
+151,財務資料,nextFiscalYearEnd,下一會計年度結束日期
+152,財務資料,mostRecentQuarter,最近財報季度結束日期
+153,股利與配息,dividendRate,年化每股股利金額
+154,股利與配息,dividendYield,年化股利殖利率
+155,股利與配息,trailingAnnualDividendRate,過去 12 個月每股股利
+156,股利與配息,trailingAnnualDividendYield,過去 12 個月股利殖利率
+157,股利與配息,fiveYearAvgDividendYield,近 5 年平均股利殖利率
+158,股利與配息,payoutRatio,盈餘配發率
+159,股利與配息,exDividendDate,除息日期
+160,股利與配息,dividendDate,股利發放日期（如有）
+161,股利與配息,lastDividendValue,最近一次每股股利
+162,股利與配息,lastDividendDate,最近一次股利日期
+163,分析師評等,targetHighPrice,分析師最高目標價
+164,分析師評等,targetLowPrice,分析師最低目標價
+165,分析師評等,targetMeanPrice,分析師平均目標價
+166,分析師評等,targetMedianPrice,分析師目標價中位數
+167,分析師評等,recommendationMean,分析師平均建議評分
+168,分析師評等,recommendationKey,分析師綜合投資建議
+169,分析師評等,numberOfAnalystOpinions,分析師評估人數
+170,分析師評等,averageAnalystRating,分析師平均評等描述
+171,分析師評等,analystOpinionCount,分析師意見數（部分來源）
+172,公司治理與風險,auditRisk,審計風險評分
+173,公司治理與風險,boardRisk,董事會治理風險評分
+174,公司治理與風險,compensationRisk,高階主管薪酬風險評分
+175,公司治理與風險,shareHolderRightsRisk,股東權益風險評分
+176,公司治理與風險,overallRisk,整體公司治理風險評分
+177,公司治理與風險,governanceEpochDate,公司治理資料日期
+178,公司治理與風險,compensationAsOfEpochDate,高階主管薪酬資料日期
+179,公司治理與風險,isEsgPopulated,是否具有 ESG 資料（歷史欄位）
+180,ETF與共同基金,fundFamily,基金管理公司／基金家族
+181,ETF與共同基金,fundInceptionDate,基金成立日期
+182,ETF與共同基金,category,基金分類
+183,ETF與共同基金,legalType,基金法律組織形式
+184,ETF與共同基金,totalAssets,基金資產總額
+185,ETF與共同基金,navPrice,基金每單位淨值（NAV）
+186,ETF與共同基金,annualReportExpenseRatio,基金年度費用率
+187,ETF與共同基金,annualHoldingsTurnover,年度持股週轉率
+188,ETF與共同基金,yield,基金收益率
+189,ETF與共同基金,ytdReturn,年初至今報酬率
+190,ETF與共同基金,threeYearAverageReturn,近三年平均年化報酬率
+191,ETF與共同基金,fiveYearAverageReturn,近五年平均年化報酬率
+192,ETF與共同基金,beta3Year,三年期 Beta 係數
+193,ETF與共同基金,morningStarOverallRating,晨星綜合星級評等
+194,ETF與共同基金,morningStarRiskRating,晨星風險評等
+195,ETF與共同基金,lastCapGain,最近一次資本利得分配
+196,ETF與共同基金,fundDescription,基金詳細介紹（如有）
+197,識別與中繼資料,underlyingSymbol,標的商品代碼
+198,識別與中繼資料,uuid,Yahoo Finance 商品唯一識別碼
+199,識別與中繼資料,messageBoardId,Yahoo Finance 討論區識別碼
+200,識別與中繼資料,timeZoneFullName,完整時區名稱
+201,識別與中繼資料,timeZoneShortName,時區縮寫
+202,識別與中繼資料,exchangeName,交易所名稱
+203,識別與中繼資料,currencySymbol,貨幣符號
+204,識別與中繼資料,language,資料語言
+205,識別與中繼資料,region,市場地區
+206,識別與中繼資料,triggerable,是否支援價格觸發功能
+207,識別與中繼資料,customPriceAlertConfidence,自訂價格警示信心指標
+208,識別與中繼資料,hasOptions,是否有選擇權市場
+209,識別與中繼資料,esgPopulated,ESG 資料可用標記（部分回傳格式）
+210,識別與中繼資料,corporateActions,公司行動資料（部分報價格式）
+211,衍生商品與選擇權,expireDate,合約到期日期
+212,衍生商品與選擇權,strikePrice,選擇權履約價
+213,衍生商品與選擇權,openInterest,未平倉量
+214,衍生商品與選擇權,underlyingExchangeSymbol,標的資產交易所代碼
+215,外匯與加密貨幣,fromCurrency,來源貨幣
+216,外匯與加密貨幣,toCurrency,目標貨幣
+217,外匯與加密貨幣,lastMarket,最近成交市場
+218,外匯與加密貨幣,volume24Hr,近 24 小時成交量
+219,外匯與加密貨幣,volumeAllCurrencies,全幣別總成交量
+220,外匯與加密貨幣,circulatingSupply,流通供給量
+221,外匯與加密貨幣,maxSupply,最大供給量
+222,外匯與加密貨幣,algorithm,加密貨幣演算法
+223,外匯與加密貨幣,startDate,資產開始交易日期
+224,外匯與加密貨幣,coinMarketCapLink,CoinMarketCap 連結（歷史欄位）

@@ -1,0 +1,16 @@
+{
+  "model": "nvidia/nemotron-3-ultra-550b-a55b",
+  "baseUrl": "https://integrate.api.nvidia.com/v1",
+  "apiKey": "",
+  "skillDirs": [".agents/skills", "skills"],
+  "scriptApproval": false,
+  "scriptTimeout": 60,
+  "scriptOutputLimit": 32768,
+  "mcpServers": {
+    "System": {
+      "command": "uv",
+      "args": ["run", "python", "server.py"],
+      "cwd": "Package/MCP/system-mcp-server"
+    }
+  }
+}
