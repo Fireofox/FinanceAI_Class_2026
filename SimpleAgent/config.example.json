@@ -6,11 +6,6 @@
   "scriptApproval": false,
   "scriptTimeout": 60,
   "scriptOutputLimit": 32768,
-  "mcpServers": {
-    "System": {
-      "command": "uv",
-      "args": ["run", "python", "server.py"],
-      "cwd": "Package/MCP/system-mcp-server"
-    }
+  "mcpServers": {}
   }
 }
